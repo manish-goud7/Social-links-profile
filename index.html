@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen p-4">
+  <div class="bg-gray-800 p-4 rounded-lg w-full max-w-sm mb-8">
+    <div class="flex flex-col items-center">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="profile-photo" class="object-cover w-24 rounded-full">
+      <h1 class="text-2xl font-semibold">Jessica Randall</h1>
+      <p class="text-[14px] mb-4 text-[hsl(75,94%,57%)] font-semibold">London, United Kingdom</p>
+      <p class="text-[14px] mb-4 font-medium">"Front-end developer and avid reader."</p>
+    </div>
+    <div class="flex flex-col items-center gap-2">
+      <a href="#" class="block w-full rounded-lg bg-gray-700 py-3 text-center font-bold text-white
+         transition hover:bg-[hsl(75,94%,57%)] hover:text-black">GitHub</a>
+      <a href="#" class="block w-full rounded-lg bg-gray-700 py-3 text-center font-bold text-white
+         transition hover:bg-[hsl(75,94%,57%)] hover:text-black">Frontend Mentor</a>
+      <a href="#" class="block w-full rounded-lg bg-gray-700 py-3 text-center font-bold text-white
+         transition hover:bg-[hsl(75,94%,57%)] hover:text-black">LinkedIn</a>
+      <a href="#" class="block w-full rounded-lg bg-gray-700 py-3 text-center font-bold text-white
+         transition hover:bg-[hsl(75,94%,57%)] hover:text-black">Twitter</a>
+      <a href="#" class="block w-full rounded-lg bg-gray-700 py-3 text-center font-bold text-white
+         transition hover:bg-[hsl(75,94%,57%)] hover:text-black">Instagram</a>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Maneesh Goud K.E</a>.
+  </div>
+</body>
+
+</html>
